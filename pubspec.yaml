@@ -40,6 +40,7 @@ dependencies:
   modal_progress_hud_nsn: ^0.5.1
   bloc: ^9.1.0
   intl: ^0.20.2
+  flutter_launcher_icons: ^0.14.4
   
 
 dev_dependencies:
@@ -58,6 +59,11 @@ dev_dependencies:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/logo_original.png"
+  remove_alpha_ios: true
 # The following section is specific to Flutter packages.
 flutter:
 
