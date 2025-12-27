@@ -39,14 +39,14 @@ class NoteCard extends StatelessWidget {
               ListTile(
                 title: Text(
                   note.title,
-                  style: const TextStyle(fontSize: 32, color: Colors.black),
+                  style: const TextStyle(fontSize: 28, color: Colors.black),
                 ),
                 subtitle: Padding(
-                  padding: const EdgeInsets.only(top: 16.0, bottom: 8),
+                  padding: const EdgeInsets.only(top: 12.0, bottom: 8),
                   child: Text(
                     note.subTitle,
-                    overflow: TextOverflow.fade,
-                    maxLines: 3,
+                    overflow: TextOverflow.ellipsis,
+                    maxLines: 2,
                     softWrap: true,
 
                     style: TextStyle(
