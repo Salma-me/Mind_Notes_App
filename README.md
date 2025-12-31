@@ -38,7 +38,7 @@
 ✔ Search notes by title or content  
 ✔ Search results prioritize pinned notes  
 ✔ Smooth & responsive UI  
-✔ Offline-first storage using Hive   
+✔ Offline storage using Hive   
 
 
 ## Demo
@@ -87,7 +87,7 @@
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/MindNotes.git
-cd MindNotes
+cd MindNotesApp
 flutter pub get
 flutter run
 ```
@@ -104,8 +104,7 @@ flutter run
 
 ## Acknowledgements
 
-- [Eng.Tharwat Samy](https://github.com/tharwatsamy) – for their excellent course on Flutter development that guided me through building MindNotesApp
-- [Google Books API](https://developers.google.com/books)
+- [Eng.Tharwat Samy](https://github.com/tharwatsamy) – for their excellent course on Flutter development that guided me through building MindNotesApp 
 - Flutter community & Bloc documentation
 - Hive documentation
 - UI inspiration from modern note-taking apps
